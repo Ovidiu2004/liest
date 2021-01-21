@@ -1,0 +1,13 @@
+a=[1,2,3,4,5,6,7,9,8]
+print('Lista initiala este:', a)
+x=sorted(a)
+print('Lista sortata este:', x)
+x.sort(reverse=True)
+print ('Lista sortata descrescator', x)
+print(len(a))
+print('maximalul din lista', max(a))
+print('minimalul din lista', min(a))
+x.append(111)
+print(x)
+x.insert(1,'222')
+print(x)
