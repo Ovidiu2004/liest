@@ -1,0 +1,10 @@
+numere=[1,25,36,58,49,3]
+print(numere)
+print(sorted(numere))
+print(len(numere))
+print(min(numere))
+print(sum(numere))
+print(all([1,2,3,4]))
+print(all([4,7,5]))
+print(any([4,False,5,9,...]))
+print(any([9,False,6,0,...]))
